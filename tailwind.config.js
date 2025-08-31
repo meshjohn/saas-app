@@ -52,6 +52,10 @@ module.exports = {
         md: "calc(var(--radius) - 2px)",
         lg: "var(--radius)",
         xl: "calc(var(--radius) + 4px)",
+        "4xl": "2rem",
+      },
+      screens: {
+        "min-lg": "1024px", // acts the same as lg
       },
     },
   },
